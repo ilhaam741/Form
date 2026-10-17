@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8">
+    <meta name="author" content="ilham ibrahim">
+    <meta name="description" content="This page contains all the things I am learning how to create as I learn HTML.">
+    <title>Form</title>
+    <style> 
+      body {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Student Registration Form</h1>
+       <div>
+          <label for="Roll No:">Roll No:</label>
+          <input type="Text" id="Roll No" name="Roll No" placeholder="H12/01234/24">
+        </div>
+            <br>
+        <div>
+          <label for="Student Name:">Student Name:</label>
+          <input type="Text" id="FirstName" name="FirstName" placeholder="First name">
+
+          <input type="Text" id="LastName" name="LastName" placeholder="Last name">
+        </div>
+            <br>
+
+        <div>
+          <label for="Father's Name:">Father's Name:</label>
+          <input type="Text" id="FathersName" name="FathersName" placeholder="John Doe">
+        </div>
+
+          <br>
+
+        <div>
+          <label for="Date of Birth:">Date of Birth:</label>   
+          <input type="date" id="DateOfBirth" name="DateOfBirth" placeholder="Date of Birth"><p>(DD/MM/YYYY)</p>
+        </div>
+
+            <br>
+
+        <div>
+          <label for="Mobile Number:">Phone Number:</label>
+          <input type="tel" id="PhoneNumber" name="PhoneNumber" placeholder="123-456-7890">
+        </div>
+          
+          <br>  
+
+        <div> 
+          <label for="Email id">Email id:</label>
+          <input type="email" id="Email" name="Email" placeholder="example@email.com">
+        </div>
+
+          <br>
+           
+          <div>
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password" placeholder="Enter your password">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="Gender">Gender:</label>
+            <input type="radio" id="male" name="Gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="Gender" value="female">
+            <label for="female">Female</label>
+          </div>
+
+          <br>
+
+          <div>
+            <label for="checkbox">Department:</label>
+            <input type="checkbox" id="CSE" name="Department" value="CSE">
+            <label for="CSE">CSE</label>
+            <input type="checkbox" id="IT" name="Department" value="IT">
+            <label for="IT">IT</label>
+            <input type="checkbox" id="ECE" name="Department" value="ECE">
+            <label for="ECE">ECE</label>
+            <input type="checkbox" id="Civil" name="Department" value="Civil">
+            <label for="Civil">Civil</label>
+            <input type="checkbox" id="Mechanical" name="Department" value="Mechanical">  
+            <label for="Mechanical">Mechanical</label>
+          </div>
+
+          <br>
+
+          <div>
+            <label for="Course">Course:</label>
+            <select id="Course" name="Course">
+              <option value="">Select a Course</option>
+              <option value="MbChB">MbChB</option>
+              <option value="Engineering">Engineering</option>
+              <option value="Computer Science">Computer Science</option>
+            </select>
+          </div>
+
+          <br>
+
+          <div>
+            <label for="Student Photo">Student Photo:</label>
+            <input type="file" id="StudentPhoto" name="StudentPhoto" accept="image/*">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="City">City:</label>
+            <input type="text" id="City" name="City" placeholder="Enter your city">
+          </div>
+
+          <br>
+
+          <div>
+            <label for="Adress">Address:</label>
+            <input type="message" id="Address" name="Address" placeholder="Enter your address">
+          </div>
+
+          <br> 
+
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">  
+          <input type="submit" value="Register">
+
+  </body> 
+</html>
